@@ -1,0 +1,243 @@
+{
+	"mainMenu": {
+		"videosBtn": "Videos",
+        "gamesBtn": "Spiele",
+        "worksBtn": "Selbermachen",
+        "audiosBtn": "Audios",
+        "loginBtn": "Mein Clixmix",
+        "deinClixiBtn": "Dein Clixi",
+        "parentsSiteBtn": "Eltern & Lehrer",
+        "menuBtn": "Menü"
+    },
+    "global": {
+        "scrollUpBtn": "Nach oben",
+        "searchInputBtn": "Los geht's",
+        "searchInputPh": "Suche",
+		"works": "selbermachen",
+		"videos": "videos",
+		"games": "spiele",
+		"audios": "audios",
+		"video": "video",
+		"game": "spiel",
+		"audio": "audio",
+		"work": "selbermachen",
+        "logoutBtn": "Abmelden",
+        "messages": {
+            "nameMissing": "Ups! Du hast leider dein Clixi Namen vergessen",
+            "nameTaken": "Ups! Dein Clixmix Name ist leider schon vergeben",
+            "passwordMissing": "Ups! Du hast leider dein Passwort vergessen",
+            "passwordLengthError": "Ups! Dein Passwort muss aus 4 Zeichen bestehen",
+            "emailMissing": "Ups! Du hast leider deine Email Adresse vergessen",
+            "emailNotValid": "Ups! Du hast leider eine ungültige Email Adresse eingegeben",
+            "birthdayMissing": "Ups! Du hast leider dein Geburtstag vergessen einzutragen",
+            "birthdayIncorrect": "Ups! Du hast leider ein falsches Geburtsdatum eingegeben",
+            "invalidData": "Du hast leider ein falschen Clixi Namen oder Passwort eingegeben",
+            "registrationFail": "Ups! Deine Anmeldung war leider nicht möglichen. Bitte überprüfe deine Daten nochmal",
+            "errorMessage": "Ups! Etwas ist schief gelaufen. Bitte probiere es nochmal",
+            "subjectMissing": "Upps, Du hast vergessen einen Betreff anzugeben",
+            "emailTextMissing": "Upps, leider sind nicht alle benötigten Felder ausgefüllt",
+            "backendQuestionProblem" : "Upps, leider haben wir zurzeit ein technisches Problem. Bitte versuch es später noch einmal.",
+            "questionSend": "thanks for your email"
+        },
+		"popular": "Beliebteste",
+		"related": "ähnliche",
+		"tips": "Clixis Tipps",
+		"tip": "clixi's tipp",
+		"print": "Drucken",
+		"download": "Speichern",
+		"gameButton": "spielen",
+		"tipVideoLink": "Hier get's zum video",
+		"tipGalleryLink": "Hier geht's zur Galerie",
+		"tipTextLink": "Hier geht's zum Artikel",
+		"back": "Zurück",
+        "moreVideos": "Mehr videos laden",
+        "blatter": "Blätter"
+    },
+
+	"mainpage": {
+		"videoBtn": "Videos"
+	},
+
+	"footer": {
+
+		"leftTitle": "Was ist",
+
+		"leftText": "Clixmix ist ein Onlineportal für Kinder im Grundschulalter, auf dem sie die Vielfalt ihrer Lebenswelt aus unterschiedlichen Blickwinkeln spielerisch entdecken. Clixmix vermittelt Wissen in altersgemäßer Form und fördert die Medienkompetenz von Kindern: Pädagogisch wertvolle, spannende und relevante Inhalte werden multimedial aufbereitet. Auf der Webseite bewegen sich die jungen Besucher in einer sicheren, werbefreien und kindgerechten Umgebung. So werden sie behutsam an die Nutzung des Internets und den Umgang mit seiner Informationsvielfalt herangeführt.",
+
+		"middleTitle": "Ausszechungen der seite",
+
+		"rightTitle": "ist eine Initiative der:",
+		"rightThanks": "Gefördert durch:",
+		"lowerText":  {
+            "inPrint": "Impressum",
+            "privatePolicy": "Datenschutzerklärung",
+            "termsOfUse": "Nutzungsbedingungen",
+            "parentSite": "Erwachsenenbereich"
+        }
+	},
+
+	"search": {
+		"yourSearch": "deine suche",
+		"info": "hier findest du alles was wir auf clixmix zu deiner suche finden konnten"
+	},
+
+
+    "loginPage": {
+        "mainTitle": "Dein anmelde bereich",
+        "loginTitle": "Logge dich ein!",
+        "loginText": "<p>Logge dich ein, um die Clixmix-Welt zu erforschen, deinen eigenen Clixi zu gestalten und Kunstwerke ausstellen zu können! Gib hier deinen Cliximx-Namen und dein geheimes Passwort ein!</p><p><b>Noch nicht dabei?</b></p><p>Du hast noch kein Clixmix-Namen? Dann klicke auf \"ein neues Profil anlegens\", um dich anzumelden! (Aber du musst nicht, denn auch ohne Anmeldung kannst du auf Clixmix Interessantes erleben.)</p>",
+        "formNameLabel": "MEIN CLIXI NAME:",
+        "formPasswordLabel": "MEIN CLIXI PASSWORT:",
+        "loginBtn": "Anmelden",
+        "forgotPasswordBtn": "Passwort vergessen?",
+        "registerLabel": "Du hast noch kein Clixi profil? Dann melde dich hier an!",
+        "registerBtn": "Ein neues Clixi profil Anlegen",
+        "messages": {
+            "401": "Du hast leider ein falschen Clixi Namen oder Passwort eingegeben."
+        },
+        "messangerPh": "Wen du hilfe brauchst klick auf mein video links oben",
+        "clixiStartText": "<p>Noch nicht dabei? Ich helfe dir beim Anmelden!<p>"
+    },
+
+    "registerPage": {
+        "mainTitle": "Mein Clixmix",
+        "registerTitle": "Melde dich an!",
+        "registerText": "<p>Nach der Anmeldung kannst du Clixi anziehen, wie es dir gefällt!</p>",
+        "formNameLabel": "DEIN CLIXMIX NAME:",
+        "formPasswordLabel": "MEIN PASSWORT:",
+        "formPasswordPh": "Dein passwort muss aus 4 zeichen bestehen",
+        "formEmailLabel": "EMAIL ADRESSE DEINER ELTERN:",
+        "formBornDateLabel": "MEIN GEBURSTAG:",
+        "submitButtonLabel": "Weiter",
+        "messages": {
+            "406": {
+                "form_errors": {
+                    "name": "Ups! Dein Clixmix Name ist leider schon vergeben.",
+                    "mail": "Leider ist deine Email Adresse schon vergeben."
+                }
+            }
+        }
+    },
+
+    "registerConfirmation": {
+        "mainTitle": "Dein anmelde bereich",
+        "frameTitle": "Dein Clixmix Profil",
+        "intro": "Drucke es Dir aus oder speichere es damit du deine Daten immer hast.",
+        "formNameLabel": "Mein Clixmix name:",
+        "formPasswordLabel": "Mein passwort:",
+        "formPasswordPh": "Dein passwort muss aus 4 zeichen bestehen",
+        "formEmailLabel": "Email adresse deiner eltern:",
+        "formBornDateLabel": "Mein geburstag:",
+        "submitButtonLabel": "Weiter",
+        "downloadBtn": "Speichern",
+        "printBtn": "Drucken"
+    },
+
+    "passwordRecovery": {
+        "mainTitle": "Dein anmelde bereich",
+        "backBtn": "Zurück",
+        "passwordRecoveryBtn": "Passwort zuschicken",
+        "registerTitle": "Beantrage hier ein neues passwort",
+        "passwordRecoveryText": "<p><b>Passwort vergessen?</b></p><p>Du hast dein Passwort vergessen und findest auch den Ausdruck mit deinem geheimen Passwot nicht mehr?</p><p>Kein Problem:<br>Du kannst dein Passwort ändern, wenn du dich mit einer E-Mail-Adresse angemeldet hast.</p><p>Alles klar? Nein? Dann Klick auf den Erklärfilm.</p>",
+        "passwordRecoveryText2": "<p><b>Passwort vergessen?</b></p><p>Du hast dein Passwort vergessen? Dann klick auf \"Passwort vergessen\" und lass dir ein neues Passwort zuschicken.</p>",
+        "nameLabel": "MEIN CLIXI NAME:",
+        "emailLabel": "EMAIL ADRESSE DEINER ELTERN:",
+        "messages": {
+            "success": "Eine E-Mail wurde an deine Adresse geschickt. Darin findest du einen Link mit dem du ein neues Passwort anlegen kannst."
+        }
+    },
+
+    "resetPassword": {
+        "mainTitle": "Dein anmelde bereich",
+        "backBtn": "Zurück",
+        "resetPasswordBtn": "Passwort zuschicken",
+        "loginTitle": "Dein neues Passwort",
+        "resetPasswordText": "resetPassword Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text Here is Text",
+        "passwordLabel": "Neues Passwort:",
+        "passwordRepeatLabel": "Passwort Speichern:",
+        "messages": {
+            "passwordsNotSame": "You repeated password incorrectly.",
+            "passwordRecoveryLinkExpired": "Link expired",
+            "passwordAlreadyChanged": "Password changed already.",
+            "passwordResetSuccess": "Das Passwort wurde geändert."
+        }
+    },
+
+    "editProfile": {
+        "mainTitle": "Dein anmelde bereich",
+        "profileTitle": "Dein Clixmix Profil",
+        "profileText": "Bitte überprüfe deine Daten nochmal.",
+        "formNameLabel": "Mein Clixmix name:",
+        "formPasswordLabel": "Mein passwort:",
+        "formPasswordPh": "Dein passwort muss aus 4 zeichen bestehen",
+        "formEmailLabel": "Email adresse deiner eltern:",
+        "formBornDateLabel": "Mein geburstag:",
+        "submitButtonLabel": "Weiter",
+        "downloadBtn": "Speichern",
+        "printBtn": "Drucken"
+    },
+
+    "registerSummary": {
+        "mainTitle": "Dein anmelde bereich",
+        "profileTitle": "Dein Clixmix Profil",
+        "profileText": "Bitte überprüfe deine Daten nochmal.",
+        "formNameLabel": "Mein Clixmix name:",
+        "formPasswordLabel": "Mein passwort:",
+        "formPasswordPh": "Dein passwort muss aus 4 zeichen bestehen",
+        "formEmailLabel": "Email adresse deiner eltern:",
+        "formBornDateLabel": "Mein geburstag:",
+        "submitButtonLabel": "Weiter",
+        "downloadBtn": "Speichern",
+        "printBtn": "Drucken"
+    },
+    "question": {
+        "mainTitle": "Sende uns deine frage",
+        "questionTitle": "Du hast eine frage?",
+        "questionText": "<p><b>Schick uns Deine Frage!</b></p><p>Du möchtest deine Meinung loswerden, hast uns etwas mitzuteilen oder ein Frage an die Redaktion? Dann schreib uns doch eine E-Mail!</p>",
+        "formTopicLabel": "Betreff: ",
+        "messanger" : "Ups! Dein clixmix name ist leider schon vergeben",
+        "sendQuestionPlaceholder" : "Hier kannst du deine nachricht rein schriben",
+        "submitButtonLabel": "Absenden"
+    },
+    "clothing" : {
+        "restartButton": "Nochmal",
+        "submitButton": "Weiter",
+        "descriptionSectionTitle": "Clixis Kleiderschrank",
+        "descriptionTitle": "Hier kannst du dein Clixi anziehen",
+        "descriptionText": "<p>Style deinen eigenen Clixi und such dir hier nach Lust und Laune ein Outfit aus!</p><p>Deiner Fantasie sind keine Grenzen gesetzt. Ein Cowboyhut zum Superhelden-Mantel? Na klar, warum nicht?! Du bist hier der Chef! Und das Beste daran: Bei deinem nächsten Besuch auf Clixmix begrüßt dich Clixi wieder in den von dir ausgesuchten Klamotten. Natürlich kannst du Clixis Outfit jederzeit ändern – so oft du möchtest!</p><p>Fertige Looks findest du unten auf dieser Seite. Viel Spaß beim Finden deines Clixi Lieblingsoutfits!</p>",
+        "setsSectionTitle": "Clixi look's"
+    },
+    "privatePolicy": {
+        "body": "<h1><b>Datenschutzerklärung</h1></b><p>Stand 01.08.2009</p><p>Die Deutsche Post AG (nachfolgend Deutsche Post genannt) freut sich über Ihren Besuch auf unserer Webseite und Ihr Interesse an unserem Unternehmen und unseren Produkten und Dienstleistungen. Der Schutz Ihrer personenbezogenen Daten bei der Verarbeitung während des gesamten Geschäftsprozesses ist für uns ein wichtiges Anliegen und wir möchten, dass Sie sich beim Besuch unserer Internetseiten sicher fühlen.Im Folgenden erläutern wir, welche Informationen wir bei der Deutschen Post während Ihres Besuches auf unseren Webseiten erfassen und wie diese genutzt werden.</p><p><b>Personenbezogene Daten</p></b><p>Personenbezogene Daten sind Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person. Darunter fallen Informationen wie z.B. Ihr richtiger Name, Ihre Anschrift, Ihre Telefonnummer und Ihr Geburtsdatum. Informationen, die nicht direkt mit Ihrer wirklichen Identität in Verbindung gebracht werden - wie z.B. favorisierte Webseiten oder Anzahl der Nutzer einer Seite - sind keine personenbezogenen Daten.</p><p><b>Erhebung und Verarbeitung von personenbezogenen Daten</p></b><p>Wenn Sie unsere Webseiten besuchen, speichern unsere Webserver standardmäßig zum Zweck der Systemsicherheit temporär die Verbindungsdaten des anfragenden Rechners, die Webseiten, die Sie bei uns besuchen, das Datum und die Dauer des Besuches, die Erkennungsdaten des verwendeten Browser- und Betriebssystem-Typs sowie die Webseite, von der aus Sie uns besuchen. Darüber hinausgehende personenbezogene Angaben wie Ihr Name, Ihre Anschrift, Telefonnummer oder E-Mail-Adresse werden nicht erfasst, es sei denn, diese Angaben werden von Ihnen freiwillig gemacht, z.B. im Rahmen einer Registrierung, einer Umfrage, eines Preisausschreibens, zur Durchführung eines Vertrages oder einer Informationsanfrage.</p><p><b>Nutzung und Weitergabe der personenbezogenen Daten</p></b><p>Die von Ihnen zur Verfügung gestellten personenbezogenen Daten verwenden wir ausschließlich zum Zweck der technischen Administration der Webseiten und zur Erfüllung Ihrer Wünsche und Anforderungen, also in der Regel zur Abwicklung des mit Ihnen geschlossenen Vertrages oder zur Beantwortung Ihrer Anfrage.</p><p>Nur dann, wenn Sie uns zuvor Ihre Einwilligung erteilt haben bzw. wenn Sie - soweit gesetzliche Regelungen dies vorsehen - keinen Widerspruch eingelegt haben, nutzen wir diese Daten auch für produktbezogene Umfragen und Marketingzwecke.</p><p>Eine Weitergabe, Verkauf oder sonstige Übermittlung Ihrer personenbezogenen Daten an Dritte erfolgt nicht, es sei denn, dass dies zum Zwecke der Vertragsabwicklung erforderlich ist oder Sie ausdrücklich eingewilligt haben. So kann es beispielsweise erforderlich sein, dass wir bei Bestellungen von Produkten Ihre Anschrift und Bestelldaten an unsere Lieferanten weitergeben.</p><p><b>Informationen aus dem Konzern</p></b><p>Die Unternehmen von Deutsche Post DHL würden gern mit Ihnen Kontakt aufnehmen, um Sie über Angebote und weitere Neuigkeiten unserer Produkte und Dienstleistungen zu informieren. Wenn Sie sich auf unseren Webseiten registrieren lassen, werden wir Sie daher bitten, uns anzugeben, ob Sie von uns direkte Werbemitteilungen erhalten möchten. Selbstverständlich erhalten Sie als Kunden der Deutschen Post weiterhin die notwendigen Informationen über wichtige Änderungen im Zusammenhang mit bestehenden Verträgen (z.B. Tarifänderungen).</p><p><b>Einsatz von Webtracking</p></b><p>Um die Nutzungshäufigkeit und die Anzahl der Nutzer unserer Website zu ermitteln verwenden wir eine Trackingsoftware. Mit dieser Software erfassen wir keine personenbezogenen Daten und keine IP-Adressen. Die Daten werden ausschließlich in anonymisierter und zusammengefasster Form für statistische Zwecke und für die Entwicklung der Website genutzt.</p><p><b>Einsatz von Cookies</p></b><p>\"Cookies\" sind kleine Dateien, die es uns ermöglichen auf Ihrem PC spezifische, auf Sie, den Nutzer, bezogene Informationen zu speichern, während Sie eine unserer Web-Sites besuchen. Cookies helfen uns dabei, die Nutzungshäufigkeit und die Anzahl der Nutzer unserer Internetseiten zu ermitteln, sowie unsere Angebote für Sie möglichst komfortabel und effizient zu gestalten.</p><p>Wir verwenden einerseits sogenannte \"Session-Cookies\", die ausschließlich für die Dauer Ihrer Nutzung einer unserer Internetseiten zwischengespeichert werden. Zum andren benutzen wir \"permanente Cookies\", um Informationen über Besucher festzuhalten, die wiederholt auf eine unserer Interseiten zugreifen. Der Zweck des Einsatzes dieser Cookies besteht darin, Ihnen eine optimale Benutzerführung anbieten zu können sowie Sie \"wiederzuerkennen\" und Ihnen bei wiederholter Nutzung eine möglichst abwechslungsreiche Internetseite und neue Inhalte präsentieren zu können. Der Inhalt eines permanenten Cookies beschränkt sich auf eine Identifikationsnummer. Name, IP-Adresse etc. werden nicht gespeichert. Eine Einzelprofilbildung über Ihr Nutzungsverhalten findet nicht statt.</p><p>Eine Nutzung unserer Angebote ist auch ohne Cookies möglich. Sie können in Ihrem Browser das Speichern von Cookies deaktivieren, auf bestimmte Websites beschränken oder Ihren Browser so einstellen, dass er sie benachrichtigt, sobald ein Cookie gesendet wird. Sie können Cookies auch jederzeit von der Festplatte ihres PC löschen (Ordner: \"Cookies\"). Bitte beachten Sie aber, dass Sie in diesem Fall mit einer eingeschränkten Darstellung der Seite und mit einer eingeschränkten Benutzerführung rechnen müssen.</p><p><b>Sicherheit</p></b><p>Die Deutsche Post trifft alle notwendigen technischen und organisatorischen Sicherheitsmaßnahmen, um Ihre personenbezogenen Daten vor Verlust und Missbrauch zu schützen. So werden Ihre Daten in einer sicheren Betriebsumgebung gespeichert, die der Öffentlichkeit nicht zugänglich ist. In bestimmten Fällen werden Ihre personenbezogenen Daten bei der Übermittlung durch die sog. Secure Socket Layer-Technologie (SSL) verschlüsselt. Das bedeutet, dass die Kommunikation zwischen Ihrem Computer und den Servern der Deutschen Post unter Einsatz eines anerkannten Verschlüsselungsverfahrens erfolgt, wenn Ihr Browser SSL unterstützt.</p><p>Sollten Sie mit der Deutschen Post per E-Mail in Kontakt treten wollen, weisen wir darauf hin, dass die Vertraulichkeit der übermittelten Informationen nicht gewährleistet ist. Der Inhalt von E-Mails kann von Dritten eingesehen werden. Wir empfehlen Ihnen daher, uns vertrauliche Informationen ausschließlich über den Postweg zukommen zu lassen.</p><p><b>Auskunftsrecht</p></b><p>Auf schriftliche Anfrage werden Sie von uns darüber informiert, welche Daten wir über Ihre Person (z.B. Name, Adresse) gespeichert haben.</p><p><b>Kontakt</p></b><p>Wenn Sie Fragen hinsichtlich der Verarbeitung Ihrer persönlichen Daten haben, können Sie sich an die Datenschutzbeauftragte der Deutschen Post AG wenden, die mit ihrem Team auch im Falle von Auskunftsersuchen, Anregungen oder Beschwerden zur Verfügung steht.Datenschutzbeauftragte der Deutschen Post AG</p><p>Gabriela Krader, LL.M<br>Deutsche Post<br>AGCorporate Center - 555<br>53250 Bonn</p>"
+    },
+
+    "inPrint" : {
+        "body": "<h1><b>Impressum</b></h1><p><b>Firmenname:</p></b><p>Deutsche Post AG<br>Sitz Bonn</p><p><b>Vertreten durch den Vorstand:</p></b><p>Dr. Frank Appel, Vorsitzender<br>Ken Allen<br>Roger Crook<br>Jürgen Gerdes<br>John Gilbert<br>Melanie Kreis<br>Lawrence A. Rosen</p><p><b>Aufsichtsratsvorsitzender:</p></b><p>Prof. Dr. Wulf von Schimmelmann</p>Handelsregister-Nr.:</p></b><p>Registergericht Bonn HRB 6792</p><p><b>USt-IdNr.:</p></b><p>DE 169838187</p><p><b>Adresse:</p></b><p>Charles-de-Gaulle-Straße 20<br>PLZ/Ort: 53113 Bonn</p>Telefon: +49 / (0) 228 / 18 20<br>e-mail: info@deutschepost.de</p><p><b>Pressekontakt:</p></b><p>Kontaktformular der Pressestelle<br><p><b>Aufsichtsbehörde:</p></b><p>Bundesnetzagentur für Elektrizität, Gas,<br>Telekommunikation, Post und Eisenbahnen (BNetzA)<br>Tulpenfeld 4, 53113 Bonn<br>Telefon: +49 / (0) 228 / 14-0<br>www.bundesnetzagentur.de</p><p><b>Website:</p></b><p>www.deutschepost.de</p>"
+    },
+
+    "termOfUse" : {
+        "body" : "<h1><b>Rechtliche Hinweise</b></h1><p>Die Deutsche Post AG prüft und aktualisiert die Informationen auf ihren Webseiten ständig. Trotz aller Sorgfalt können sich die Daten inzwischen verändert haben. Eine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen kann daher nicht übernommen werden.</p><p>Gleiches gilt auch für alle anderen Webseiten, auf die mittels Hyperlink verwiesen wird. Die Deutsche Post AG ist für den Inhalt der Webseiten, die aufgrund einer solchen Verbindung erreicht werden, nicht verantwortlich.</p><p>Die auf diesen Internetseiten bereitgestellten Informationen stellen weder ein Angebot zum Erwerb von Aktien der Deutsche Post AG oder anderer Unternehmen dar, noch gelten sie als Aufforderung zum Kauf oder zum sonstigen direkten oder indirekten Handel mit Aktien. Jede Entscheidung zur Investition in Aktien der Deutsche Post AG muss auf Basis des von der Gesellschaft genehmigten Verkaufsprospektes / Börsenzulassungsprospektes erfolgen. Des Weiteren behält sich die Deutsche Post AG das Recht vor, Änderungen oder Ergänzungen der bereitgestellten Informationen vorzunehmen.</p><p>Inhalt und Struktur der Deutsche Post Webseiten sind urheberrechtlich geschützt. Die Vervielfältigung von Informationen oder Daten, insbesondere die Verwendung von Texten, Textteilen oder Bildmaterial, bedarf der vorherigen Zustimmung der Deutsche Post AG.</p>"
+    },
+
+    "overview" : {
+        "clothesTitle": "Dein Clixi Kleiderschrank",
+        "clothesText": "Style deinen eigenen Clixi und such dir hier nach Lust und Laune ein Outfit aus! Deiner Fantasie sind keine Grenzen gesetzt. Ein Cowboyhut zum Superhelden-Mantel? Na klar, warum nicht?! Du bist hier der Chef!",
+        "editTitle": "Deine Clixmix Daten",
+        "editText": "Stimmen deine Daten, oder hast du dich vertippt? Wenn du hier klickst, kannst du noch etwas änder",
+        "frageTitle": "Hier kannst du uns Deine fragen schicken"
+    },
+
+    "pages" : {
+        "login": {
+            "title": "Anmelden",
+            "description": "Anmelden page description."
+        }       
+    },
+
+    "registrationBubble" : {
+        "name": "<p>Such dir einen Fantasienamen aus, wie zum Beispiel „Entdecker“! Dein richtiger Name bleibt im Internet besser ein Geheimnis!</p>",
+        "password": "<p>Denk dir ein geheimes Passwort aus. Damit loggst du dich zukünftig auf Clixmix ein. Damit es besonders sicher ist, muss es mindestens 8 Zeichen lang sein, einen Großbuchstaben, einen Kleinbuchstaben, ein Sonderzeichen, und eine Zahl enthalten. Ich gebe dir ein Beispiel:<br><b> Ge#Hei5m</b></p>",
+        "email": "<p>Sprich dich mit deinen Eltern ab, ob du ihre E-Mail-Adresse eintragen darfst. Warum wir eine E-Mail-Adresse brauchen? Wenn du zum Beispiel dein Passwort vergessen hast, helfen wir dir weiter.<p>",
+        "date": "<p>Trage hier dein Geburtsdatum ein. Der Kalender hilft dir dabei.</p>"
+    }
+}

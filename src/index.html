@@ -1,0 +1,97 @@
+<!doctype html>
+<html ng-app="clixmix">
+  <head>
+    <base href="/">
+    <meta name="fragment" content="!">
+    <meta charset="utf-8">
+    <title>{{ngMeta.title}}</title>
+    <meta name="description" content="{{ngMeta.description}}">
+    <meta name="keywords" content="{{ngMeta.keywords}}">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="{{ngMeta.title}}" />
+    <meta property="og:description" content="{{ngMeta.description}}" />
+    <meta name="theme-color" content="#FDDB46">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div ui-view="header" id="header"></div>
+
+    <div ng-class="{'main-background' : true, 'noScroll': loading }">
+        <div id="loaderDiv" ng-if="loading">
+            <div id="cssload-contain" nf-if="showSpinner">
+                <div class="cssload-wrap" id="cssload-wrap1">
+                    <div class="cssload-ball" id="cssload-ball1"></div>
+                </div>
+
+                <div class="cssload-wrap" id="cssload-wrap2">
+                    <div class="cssload-ball" id="cssload-ball2"></div>
+                </div>
+
+                <div class="cssload-wrap" id="cssload-wrap3">
+                    <div class="cssload-ball" id="cssload-ball3"></div>
+                </div>
+
+                <div class="cssload-wrap" id="cssload-wrap4">
+                    <div class="cssload-ball" id="cssload-ball4"></div>
+                </div>
+            </div>
+        </div>
+		<div class="main-background-left">
+			<div class="main-background-crop">
+				<div class="main-background-left-corner"></div>
+				<div class="main-background-left-border"></div>
+			</div>
+		</div>
+		<div class="main-background-right">
+			<div class="main-background-crop">
+				<div class="main-background-right-corner"></div>
+				<div class="main-background-right-border"></div>
+			</div>
+		</div>
+
+		<div class="main-wrapper">
+            <div cm-image-scale-manager class="container">
+                <div ui-view="content"></div>
+            </div>
+		</div>
+        <div class="clear"></div>
+    </div>
+
+    <div ui-view="footer"></div>
+
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- run `gulp inject` to automatically populate bower script dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <!-- js files will be automatically insert here -->
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- angular templates will be automatically converted in js and inserted here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <script> window.prerenderReady = false; </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "api": "http://localhost:7001/api/",
+    "domain": "localhost"
+  },
+  "staging": {
+    "api": "https://admin.clixmix-staging.atmosphere.zone/api/",
+    "domain": ".clixmix-staging.atmosphere.zone"
+  },
+  "production": {
+    "api": "http://admin.clixmix.atmosphere.zone/api/",
+    "domain": ".clixmix.atmosphere.zone"
+  }
+}

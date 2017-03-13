@@ -1,0 +1,38 @@
+<IfModule mod_headers.c>
+    RequestHeader set X-Prerender-Token "0ieaxy6W5BT4jBZO6y2u"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteCond %{HTTP_HOST} !^clixmix\.dev
+    RewriteCond %{HTTP_HOST} !^clixmix.atmosphere\.zone
+    RewriteCond %{HTTP_HOST} !^192.168.99.100
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Don't rewrite files or directories
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteCond %{QUERY_STRING} !_escaped_fragment_
+    RewriteRule ^ - [L]
+
+    # Prerender.io stuff
+    <IfModule mod_proxy_http.c>
+        RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest [NC,OR]
+        RewriteCond %{QUERY_STRING} _escaped_fragment_
+        RewriteCond %{REQUEST_URI} ^/index\.html$
+        # Proxy the server root
+        RewriteRule .* http://service.prerender.io/https://clixmix-staging.atmosphere.zone/ [P,L]
+
+        RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest [NC,OR]
+        RewriteCond %{QUERY_STRING} _escaped_fragment_
+        # Only proxy the request to Prerender if it's a request for HTML
+        RewriteRule ^(?!.*?(\.js|\.css|\.xml|\.less|\.png|\.jpg|\.jpeg|\.gif|\.pdf|\.doc|\.txt|\.ico|\.rss|\.zip|\.mp3|\.rar|\.exe|\.wmv|\.doc|\.avi|\.ppt|\.mpg|\.mpeg|\.tif|\.wav|\.mov|\.psd|\.ai|\.xls|\.mp4|\.m4a|\.swf|\.dat|\.dmg|\.iso|\.flv|\.m4v|\.torrent))(.*) http://service.prerender.io/https://clixmix-staging.atmosphere.zone/$2 [P,L]
+    </IfModule>
+
+    # Rewrite everything else to index.html to allow html5 state links
+    RewriteRule ^ index.html [L]
+
+</IfModule>

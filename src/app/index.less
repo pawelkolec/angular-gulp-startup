@@ -1,0 +1,156 @@
+/* Do not remove the comments below. It's the markers used by wiredep to inject
+   less dependencies when defined in the bower.json of your dependencies */
+// bower:less
+// endbower
+
+* {
+	box-sizing: border-box;
+}
+
+@fontColor: #000;
+
+//html, body {
+//    overflow-x: hidden;
+//}
+
+.clear {
+	clear: both;
+    float: none !important;
+}
+
+a:link {
+    color: @fontColor;
+	text-decoration: none;
+}
+
+a:visited {
+    color: @fontColor;
+	text-decoration: none;
+}
+
+a:hover, button:hover {
+    color: @fontColor;
+	text-decoration: none;
+}
+
+a:active {
+    color: @fontColor;
+	text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+button, butto:hover {
+    outline: none;
+}
+
+body {
+	font-weight: 400;
+	font-size: 16px;
+    background: @backgroundColor;
+	color: @fontColor;
+}
+
+.fw-l {
+	font-weight: 300;
+}
+
+.fw-n {
+	font-weight: 400;
+}
+
+.fw-b {
+	font-weight: 700;
+}
+
+.fw-eb {
+	font-weight: 900;
+}
+
+/* common */
+
+@desktopMinWidth: 1279px;
+@tabletMinWidth: 991px;
+@mobileMinWidth: 767px;
+
+.container {
+    height: auto;
+    min-height: 100%;
+	padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+	@media (max-width: @desktopMinWidth) {
+		width: 1260px;
+	}
+
+	@media (max-width: @tabletMinWidth) {
+		width: 970px;
+	}
+
+	@media (max-width: @mobileMinWidth) {
+		width: 750px;
+	}
+}
+
+.main-background {
+	position: relative;
+	z-index: 0;
+    min-height: 100%;
+    padding-bottom: 220px;
+	overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    z-index: 3;
+}
+
+.main-wrapper {
+    width: 100%;
+    float: left;
+	padding-top: 13px;
+}
+
+.noScroll {
+    max-height: 100%;
+    overflow-y: hidden;
+}
+
+#header {
+    position: relative;
+    z-index: 3;
+}
+
+/* Do not remove the comments below. It's the markers used by gulp-inject to inject
+   all your less files automatically */
+// injector
+// endinjector
+
+
+/* main colors */
+
+@backgroundColor: #bedbdf;
+
+/* common elements */
+
+@commonBorderStyle: outset;
+
+@media (max-width: @desktopMinWidth) {
+
+}
+
+@media (max-width: @tabletMinWidth) {
+
+}
+
+@media (max-width: @mobileMinWidth) {
+
+}
+
+@media (max-width: 400px) {
+
+}
